@@ -1,0 +1,98 @@
+.movie {
+    color: #fff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .movie_intro {
+    position: relative;
+  }
+  
+  .movie_backdrop {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .movie_detail {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .movie_detailLeft {
+    flex: 1;
+  }
+  
+  .movie_posterBox {
+    text-align: center;
+  }
+  
+  .movie_poster {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .movie_detailRight {
+    flex: 2;
+    padding-left: 20px;
+  }
+  
+  .movie_name {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .movie_tagline {
+    font-size: 18px;
+    color: #888;
+    margin-top: 10px;
+  }
+  
+  .movie_rating {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .movie_voteCount {
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  .movie_runtime,
+  .movie_releaseDate,
+  .movie_genres {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .movie_genres .movie_genre {
+    background-color: #444;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+  
+  .movie_links {
+    margin-top: 20px;
+  }
+  
+  .movie_heading {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .movie_Button {
+    display: inline-block;
+    background-color: #555;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  .movie_Button:hover {
+    background-color: #333;
+  }
+  
